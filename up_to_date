@@ -1,0 +1,88 @@
+   1  git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-zero_day.git                  
+    2  git clone https://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@github.com/AhmedLAZAAR/alx-zero_day.git                  
+    3  cd alx-zero_day/
+    4  echo 'My first readme' > README.md 
+    5  cat README.md 
+    6  git config --global user.email "lazaarahmed87@gmail.com"
+    7  git config --global user.name "Ahmed LAZAAR"
+    8  git add .
+    9  git commit -m 'My first commit'
+   10  git push
+   11  mkdir 0x03-git
+   12  ls
+   13  cp README.md 0x03-git/
+   14  ls
+   15  ls 0x03-git/
+   16  git add .
+   17  git push 
+   18  rm README.md 
+   19  cd 0x03-git/
+   20  cat README.md 
+   21  cp README.md /alx-zero_day/
+   22  ls
+   23  git add .
+   24  git commit -m 'My first commit'
+   25  git push 
+   26  mkdir bash c js 
+   27  touch bash/alx bash/school c/c_is_fun.c js/main.js js/index.js
+   28  ls
+   29  echo #!/bin/bash>bash/alx
+   30  cat bash/alx
+   31  echo '#!/bin/bash'>bash/alx
+   32  cat bash/alx
+   33  echo 'echo "ALX"'>bash/alx
+   34  cat bash/alx
+   35  echo '#!/bin/bash'>bash/alx
+   36  vi bash/alx
+   37  vi bash/school 
+   38  git add .
+   39  git commit -m 'Starting to code today, so cool'
+   40  git push 
+   41  git branch update_script
+   42  touch bash/98
+   43  vi bash/alx 
+   44  vi bash/school 
+   45  git add .
+   46  git commit -m 'My personal work'
+   47  git push 
+   48  git push origin update_script
+   49  git checkout main
+   50  git checkout master
+   51  git checkout update_script
+   52  history
+   53  ls
+   54  ls bash/
+   55  touch bash/98
+   56  vi bash/alx 
+   57  vi bash/school 
+   58  git add .
+   59  git commit -m 'My personal work'
+   60  git push 
+   61  git push --set-upstream origin update_script
+   62  git checkout master
+   63  vi bash/alx 
+   64  ls 
+   65  rm js
+   66  rm-r js
+   67  mv js
+   68  rm-d js
+   69  rm -r js
+   70  ls
+   71  git add .
+   72  git commit -m 'Hot fix'
+   73  git push 
+   74  git checkout main
+   75  git checkout master 
+   76  git fetch
+   77  git merge origin/main
+   78  cat README.md 
+   79  git merge origin/master 
+   80  cat README.md 
+   81  ls
+   82  cd ..
+   83  cat README.md 
+   84  touch up_to_date
+   85  echo git checkout main
+   86  git fetch
+   87  histroy
+   88  history
